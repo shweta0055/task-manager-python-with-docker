@@ -1,0 +1,21 @@
+# Python / Django
+__pycache__/
+*.py[cod]
+*.sqlite3
+*.log
+venv/
+.env
+
+# Django migrations
+**/migrations/
+!**/migrations/__init__.py
+
+# Node / React
+frontend/node_modules/
+frontend/build/
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
